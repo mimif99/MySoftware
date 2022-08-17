@@ -3,6 +3,6 @@ node{
         git "https://github.com/mimif99/MySoftware.git"
     }
     stage("show files"){
-        sh "ls -l"
+        bat "dir"
     }
 }
